@@ -31,9 +31,11 @@ namespace Store
             }
         }
 
-        public void RemoveInventory()
+        public void RemoveInventory(Product product, int quantity)
         {
-
+            if (inventory.ContainsKey(product)) { 
+                inventory[product] -= quantity;
+            }
         }
 
         public int GetInventory(Product product)
@@ -42,8 +44,13 @@ namespace Store
             return inventory[product];
         }
 
-        public bool HasInventory()
+        //genoeg items aanwezig van een bepaald product
+        public bool HasInventory(Product product, int quantity)
         {
+            if (inventory.ContainsKey(product))
+            {
+                return inventory[product] >= quantity;
+            }
             return false;
         }
     }
