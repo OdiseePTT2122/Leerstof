@@ -16,11 +16,28 @@ namespace UnitTests.Tests
         [Test]
         public void Sum_GivenTwoPositiveNumbers_ReturnCorrectSum()
         {
+            //Arrange
             Calculator sut = new Calculator();
 
+            //Act
             int result = sut.Sum(5, 10);
 
-            Assert.AreEqual(5, result);
+            //Assert
+            Assert.AreEqual(15, result);
+        }
+
+        [Test]
+        public void Divide_GivenTwoDivisibleIntegers_ReturnDivision()
+        {
+            //Arrange - doe de setup
+            Calculator sut = new Calculator();  // subject under test = sut
+
+            //Act - voer iets uit
+            int result = sut.Divide(10, 5);
+
+            //Assert - controleer de output van de act
+            Assert.AreEqual(2, result);
+            Assert.That(result, Is.EqualTo(2));
         }
     }
 }
