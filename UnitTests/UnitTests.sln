@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store", "Store\Store.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store.Tests", "Store.Tests\Store.Tests.csproj", "{E91AE554-6F4B-4A8B-B573-87CC0FBCCAA7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Voting", "Voting\Voting.csproj", "{3DD43695-A070-4A6E-A55A-0D22439BB59B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Voting.Tests", "Voting.Tests\Voting.Tests.csproj", "{0843207F-495D-44ED-B7F2-BDECEE5B3998}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{E91AE554-6F4B-4A8B-B573-87CC0FBCCAA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E91AE554-6F4B-4A8B-B573-87CC0FBCCAA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E91AE554-6F4B-4A8B-B573-87CC0FBCCAA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DD43695-A070-4A6E-A55A-0D22439BB59B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DD43695-A070-4A6E-A55A-0D22439BB59B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DD43695-A070-4A6E-A55A-0D22439BB59B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DD43695-A070-4A6E-A55A-0D22439BB59B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0843207F-495D-44ED-B7F2-BDECEE5B3998}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0843207F-495D-44ED-B7F2-BDECEE5B3998}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0843207F-495D-44ED-B7F2-BDECEE5B3998}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0843207F-495D-44ED-B7F2-BDECEE5B3998}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
