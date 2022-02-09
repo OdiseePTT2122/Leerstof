@@ -55,6 +55,20 @@ namespace Store.Tests
             createSetup(1);
         }
 
+        // Teardown gebeurt na ELKE test
+        [TearDown]
+        public void TearDown()
+        {
+
+        }
+
+        [OneTimeTearDown]
+        public void TearDownOneTime()
+        {
+            // omgekeerde OneTimeSetUp
+            // na ALLE testen eenmalig
+        }
+
         //Test in comment to disable them
         //[Test]
         public void Purchase_StoreEmpty_ReturnFalse()
