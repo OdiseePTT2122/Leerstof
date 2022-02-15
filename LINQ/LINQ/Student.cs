@@ -21,5 +21,17 @@ namespace LINQ
             Age = age;
             Geslacht = geslacht;
         }
+        /*
+        public override bool Equals(object obj)
+        {
+            try
+            {
+                Student s = obj as Student;
+                return FirstName == s.FirstName && LastName == s.LastName && Age == s.Age && s.Geslacht == Geslacht;
+            } catch (Exception ex)
+            {
+                return false;
+            }
+        }*/
     }
 }
