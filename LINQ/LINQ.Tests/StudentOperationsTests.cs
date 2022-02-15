@@ -30,6 +30,29 @@ namespace LINQ.Tests
         [Test]
         public void GetAllStudentsOfSex_WithListOfMultipleSexes_ReturnOnlyMales()
         {
+            // Het probleem met de standaard manier van Is.EqualTo was dat ik aparte objecten aanmaakte,
+            // als je de objecten uit de origenele lijst haalt zoals hieronder moet je de Equals Operator niet overloaden.
+
+            // Arrange
+            List<Student> expected = new List<Student>()
+            {
+                students[0],
+                students[3]
+            };
+
+            // Act
+            List<Student> result = sut.GetAllStudentsOfSex(students, Geslacht.Mannelijk);
+
+            // Assert
+            Assert.That(result, Is.EqualTo(expected));
+        }
+
+        [Test]
+        public void GetAllStudentsOfSex_WithListOfMultipleSexes_ReturnOnlyMales2()
+        {
+            // Indien je voor het maken van de expected list nieuwe objecten aanmaakt
+            // moet je ook ervoor zorgen dat je ook de Equals Operator overload.
+
             // Arrange
             List<Student> expected = new List<Student>()
             {
