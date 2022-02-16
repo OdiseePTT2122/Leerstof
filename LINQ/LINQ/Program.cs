@@ -37,6 +37,11 @@ namespace LINQ
                 new Student("Dkj;", "kj;adf", 35, Geslacht.Mannelijk)
             };
 
+            if(students[0] == students[1])
+            {
+
+            }
+
             int sum = 0;
             foreach (var student in students)
             {
