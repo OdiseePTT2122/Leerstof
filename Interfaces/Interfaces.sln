@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfacesStart", "InterfacesStart\InterfacesStart.csproj", "{14526032-4C10-41DD-840A-7961AD58FE7F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sound", "Sound\Sound.csproj", "{82DC6C41-DDDE-49E0-9929-349580370FB7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{14526032-4C10-41DD-840A-7961AD58FE7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14526032-4C10-41DD-840A-7961AD58FE7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14526032-4C10-41DD-840A-7961AD58FE7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82DC6C41-DDDE-49E0-9929-349580370FB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82DC6C41-DDDE-49E0-9929-349580370FB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82DC6C41-DDDE-49E0-9929-349580370FB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82DC6C41-DDDE-49E0-9929-349580370FB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

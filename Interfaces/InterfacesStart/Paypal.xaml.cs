@@ -11,23 +11,28 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using InterfacesStart;
 
 namespace Interfaces
 {
     /// <summary>
     /// Interaction logic for Paypal.xaml
     /// </summary>
-    public partial class Paypal : Window
+    public partial class Paypal : Window, IPayWindow
     {
         private bool _paypalPaymentSucceeded = false; 
         public bool PaymentSucceeded => _paypalPaymentSucceeded;
+
+        public string PaymentSucceededMessage => "Paypal payment succeeded";
+
+        public string PaymentFailedMessage => "Paypal payment failed";
 
         public Paypal()
         {
             InitializeComponent();
         }
 
-        private void payButton_Click(object sender, RoutedEventArgs e)
+        public void payButton_Click(object sender, RoutedEventArgs e)
         {
             _paypalPaymentSucceeded = true;
             Close();
@@ -36,6 +41,11 @@ namespace Interfaces
         private void cancelButton_Click(object sender, RoutedEventArgs e)
         {
             Close();
+        }
+
+        public void OpenPaymentScreen()
+        {
+            ShowDialog();
         }
     }
 }

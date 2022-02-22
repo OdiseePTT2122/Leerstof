@@ -11,16 +11,22 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using InterfacesStart;
 
 namespace Interfaces
 {
     /// <summary>
     /// Interaction logic for Visa.xaml
     /// </summary>
-    public partial class Visa : Window
+    public partial class Visa : Window, IPayWindow
     {
         private bool _visaPaymentSucceeded = false; 
         public bool PaymentSucceeded => _visaPaymentSucceeded;
+
+        public string PaymentSucceededMessage => "Visa payment succeeded";
+
+        public string PaymentFailedMessage => "Visa payment failed";
+
         public Visa()
         {
             InitializeComponent();
@@ -35,6 +41,11 @@ namespace Interfaces
         private void cancelButton_Click(object sender, RoutedEventArgs e)
         {
             Close();
+        }
+
+        public void OpenPaymentScreen()
+        {
+            ShowDialog();
         }
     }
 }
