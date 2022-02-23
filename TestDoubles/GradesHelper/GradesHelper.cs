@@ -51,6 +51,7 @@ namespace GradesHelper
 
         public void AddScore(Student student, int score)
         {
+
             if (score < 0)
             {
                 throw new Exception();

@@ -9,6 +9,7 @@ namespace GradesHelper
 
         }
 
+        // om deze klasse te kunnen mocken moet dit virtual zijn
         public virtual DbSet<Student> Students { get; set; }
     }
 }
