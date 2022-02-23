@@ -5,13 +5,10 @@ namespace Guesser
     public class HigherLower
     {
         int number;
-
-        public HigherLower():this(new RandomWrapper())
+      
+        public HigherLower()
         {
-
-        }
-        public HigherLower(IRandom random)
-        {
+            Random random = new Random();
             number = random.Next(100);
         }
 
