@@ -65,6 +65,20 @@ namespace LINQ.Tests
 
             // Assert
             Assert.That(result, Is.EqualTo(expected));
+
+            List<int> numbers = new List<int>();
+
+            numbers.Select(x =>
+            {
+                if(x%2 == 0)
+                {
+                    return x * x;
+                } else
+                {
+                    return x;
+                }
+            })
+
         }
 
     }
