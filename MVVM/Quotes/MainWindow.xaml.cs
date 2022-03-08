@@ -21,6 +21,8 @@ namespace Quotes
             InitializeComponent();
             this.quoteRepository = quoteRepository;
             LoadQuotes();
+
+            DataContext = new Viewmodel();
         }
 
         private void saveButton_Click(object sender, RoutedEventArgs e)
