@@ -18,8 +18,5 @@ namespace Quotes
 
         public virtual DbSet<Quote> Quotes { get; set; }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-        }
     }
 }
