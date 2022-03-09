@@ -12,12 +12,12 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace Quotes.MVVMC
+namespace QuotesCoordinator
 {
     /// <summary>
     /// Interaction logic for AddQuoteWindow.xaml
     /// </summary>
-    public partial class AddQuoteWindow : Window, IClosable
+    public partial class AddQuoteWindow : Window
     {
         public AddQuoteWindow()
         {

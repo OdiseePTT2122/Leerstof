@@ -23,6 +23,7 @@ namespace QuotesCoordinator
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = new MainViewModel();
         }
     }
 }

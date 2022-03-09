@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Quotes.MVVMC
+namespace QuotesCoordinator
 {
     public class QuoteDbContext: DbContext
     {
