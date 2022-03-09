@@ -17,7 +17,7 @@ namespace QuotesCoordinator
     /// <summary>
     /// Interaction logic for AddQuoteWindow.xaml
     /// </summary>
-    public partial class AddQuoteWindow : Window
+    public partial class AddQuoteWindow : Window, ICloseable
     {
         public AddQuoteWindow()
         {

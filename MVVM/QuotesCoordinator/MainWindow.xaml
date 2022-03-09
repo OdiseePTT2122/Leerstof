@@ -13,7 +13,7 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
-            <ListBox x:Name="quotesListBox" Margin="5" ItemsSource="{Binding Quotes, Mode=OneWay}" SelectedItem="{Binding SelectedQuote}">
+            <ListBox x:Name="quotesListBox" Margin="5" ItemsSource="{Binding Quotes, Mode=OneWay}">
                 <ListBox.ItemTemplate>
                     <DataTemplate>
                         <Label Content="{Binding Text}"/>

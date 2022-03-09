@@ -13,5 +13,10 @@ namespace QuotesCoordinator
     /// </summary>
     public partial class App : Application
     {
+        public App()
+        {
+            Coordinator coordinator = new Coordinator();
+            coordinator.ShowMainWindow();
+        }
     }
 }

@@ -23,6 +23,6 @@
         <Label Grid.Row="1" Margin="5">Quote:</Label>
         <TextBox x:Name="quoteTextBox" Grid.Column="1" Grid.Row="1" Margin="5" Text="{Binding Text}"/>
 
-        <Button Grid.Row="2" Grid.ColumnSpan="2" Name="saveButton" Margin="5" Padding="5" Command="{Binding CreateQuoteCommand}">Save</Button>
+        <Button Grid.Row="2" Grid.ColumnSpan="2" Name="saveButton" Margin="5" Padding="5" Command="{Binding SaveQuoteCommand}">Save</Button>
     </Grid>
 </Window>

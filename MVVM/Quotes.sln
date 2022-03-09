@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuotesMVVM.Tests", "QuotesM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuotesCoordinator", "QuotesCoordinator\QuotesCoordinator.csproj", "{512D7B4F-B282-4A35-B072-344BA5BA9AD4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuotesCoordinator.Tests", "QuotesCoordinator.Tests\QuotesCoordinator.Tests.csproj", "{1881CA24-1373-46CD-8FC3-E3AF360ADD33}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{512D7B4F-B282-4A35-B072-344BA5BA9AD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{512D7B4F-B282-4A35-B072-344BA5BA9AD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{512D7B4F-B282-4A35-B072-344BA5BA9AD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1881CA24-1373-46CD-8FC3-E3AF360ADD33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1881CA24-1373-46CD-8FC3-E3AF360ADD33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1881CA24-1373-46CD-8FC3-E3AF360ADD33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1881CA24-1373-46CD-8FC3-E3AF360ADD33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

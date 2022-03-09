@@ -65,9 +65,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="AddQuoteViewModel.cs" />
+    <Compile Include="Coordinator.cs" />
+    <Compile Include="ICloseable.cs" />
+    <Compile Include="MainViewModel.cs" />
     <Compile Include="Quote.cs" />
     <Compile Include="QuoteDbContext.cs" />
     <Compile Include="QuoteRepository.cs" />
+    <Compile Include="RelayCommand.cs" />
     <Page Include="AddQuoteWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
